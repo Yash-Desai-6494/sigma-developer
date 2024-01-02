@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: wheat;
+    height: 110px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 4vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.list ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: brown;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 9vw;
+    margin: 18px 9vw;
+}
+
+.display {
+    font-size: 21px;
+}
+
+.display span b {
+    font-family: system-ui;
+    font-size: 22px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgs img {
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.imgs img:hover {
+    transform: scale(1.1);
+}
+
+.client {
+    font-size: 20px;
+
+}
+
+.display .client {
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+}
+
+.display .review {
+    background-color: white;
+    padding: 20px 60px;
+    margin: 10px;
+    border-radius: 25px;
+    /* font-style: italic; */
+    font-weight: 200;
+    color: brown;
+    font-style: oblique;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a{
+    padding: 15px;
+    margin: 20px;
+    background-color: wheat;
+}
+
+.copy{
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-weight: bolder;
+}
