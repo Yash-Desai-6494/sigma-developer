@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
@@ -55,30 +55,56 @@
                     </svg>
 
                 </div>
-                <div class="butons">
-                    <button>Signup</button>
-                    <button>Login</button>
+                <div class="buttons">
+                    <button class="signup-btn">Sign up</button>
+                    <button class="login-btn">Log in</button>
                 </div>
             </div>
             <div class="spotifyPlaylist">
                 <h1>Spotify Playlist</h1>
                 <div class="cardContainer">
                     <div class="card ">
+                        <div class="play">
+                            <div class="circle-container">
+                                <svg class="svg-content" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
+                                  <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                              </div>
+                        </div>
                         <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
                         <h2>Happy Hits!</h2>
                         <p>Hits to boost your mood and fill you with happiness!</p>
                     </div>
                     
                     <div class="card ">
+                        <div class="play">
+                            <div class="circle-container">
+                                <svg class="svg-content" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
+                                  <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                              </div>
+                        </div>
                         <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
                         <h2>Happy Hits!</h2>
                         <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+
+
+                    <div class="playbar">
+                        <div class="songinfo"></div>
+                        <div class="songButtons">
+                            <img src="prevSong.svg" alt="">
+                            <img src="play.svg" alt="">
+                            <img src="nextSong.svg" alt="">
+                        </div>
+                        <div class="songtime"></div>
                     </div>
                     
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

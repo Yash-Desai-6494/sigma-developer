@@ -39,3 +39,18 @@
 .p-1{
     padding: 10px;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* For WebKit browsers */
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+    border: 3px solid #111;
+  }
