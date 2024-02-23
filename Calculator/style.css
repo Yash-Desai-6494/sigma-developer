@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 260px;
+    margin: 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 6);
+}
+
+input[type="button"]{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(81, 77, 77);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    width: 230px;
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 20px ;
+    font-weight: bolder;
+}
+
+div>.ac{
+    background-color: rgb(40, 40, 40);
+}
+
+div>.equal{
+    background-color: orange;
+}

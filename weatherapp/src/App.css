@@ -1,0 +1,80 @@
+/* WeatherApp.css */
+
+/* Container styles */
+.weather-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffedcb; /* Light orange */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.weather-app h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form styles */
+.weather-form {
+  display: flex;
+  align-items: center;
+}
+
+.weather-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.weather-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #ff6f61; /* Red */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weather-form button:hover {
+  background-color: #ff4f4f; /* Darker red */
+}
+
+/* Weather info styles */
+.weather-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.weather-info p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Additional colorful styles */
+.weather-info {
+  background-color: #f9f9f9; /* Light gray */
+}
+
+.weather-form button {
+  background-color: #5bc0de; /* Light blue */
+}
+
+.weather-form button:hover {
+  background-color: #31b0d5; /* Darker blue */
+}
